@@ -1,0 +1,78 @@
+/* FavoritesPage Pagination Styels */
+
+/* CSS for pagination container */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* CSS for pagination links */
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination a:hover {
+    background-color: #0275d8;
+  }
+  
+  /* CSS for active pagination link */
+  .active a {
+    background-color: #d9534f;
+    color: #fff;
+
+  }
+  
+  .active a:hover {
+   
+    background-color: #d9534f;
+  }
+  
+/* Cards Pagination Styels */
+
+
+
+  /* CSS for custom pagination container */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0; /* Adjust the margin as needed for spacing */
+}
+
+/* CSS for custom pagination buttons */
+.pagination button {
+  background-color: #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #0275d8;
+}
+
+/* CSS for custom pagination span (Page x of y) */
+.pagination span {
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+}
